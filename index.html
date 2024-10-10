@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Gastro Chef</title>
+  </head>
+  <body>
+      <header class="header section">
+        <div class="header-container container">
+          <nav class="navigation">
+            <div class="logo-wrapper">
+              <img
+                src="./images/logo/logo-ellipse-desktop.png"
+                alt=""
+                width="340"
+                height="340"
+              />
+              <a href="/" class="logo">
+                <img
+                  src="./images/logo/logo_290x120.png"
+                  alt="Logo"
+                  width="290"
+                  height="120"
+                />
+                <span class="logo-text">healthy ration</span>
+              </a>
+            </div>
+
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="#programs">Программы питания</a>
+              </li>
+              <li class="menu-item"><a href="#">Бизнес-ланчи</a></li>
+              <li class="menu-item"><a href="#">Gastro Shop</a></li>
+              <li class="menu-item"><a href="#">О нас</a></li>
+              <li class="menu-item"><a href="#">Блог</a></li>
+            </ul>
+          </nav>
+
+          <div class="contact-info">
+            <a href="tel:+380689494919">+38 (068) 949 - 49 - 19</a>
+          </div>
+
+          <div class="languages">
+            <ul class="languages-list">
+              <li class="languages-item"><span>RU</span></li>
+              <li class="languages-item"><span>UK</span></li>
+              <li class="languages-item"><span>EN</span></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero section">
+          <div class="hero-container container">
+            <!--hero-content  -->
+            <div class="hero-content">
+              <h1 class="hero-title">
+                Detox программа – <span>вкусное очищение </span>организма
+              </h1>
+              <p class="hero-text">
+                8 бутылочек <span>натуральных</span> смузи и фрешей.
+              </p>
+              <div class="wrap-order">
+                <button type="button" class="btn-order btn">Заказать</button>
+                <p class="hero-subtext">
+                  Пробный день всего: <b><span>427 грн</span></b>
+                </p>
+              </div>
+            </div>
+
+            <!-- hero-image -->
+            <div class="hero-image">
+              <div class="hero-image-background">
+                <img src="./images/hero/hero-ellipse.png" alt="" />
+                <div class="hero-image-background-white">
+                  <img
+                    src="./images/hero/hero-desktop.png"
+                    alt="Detox Bottle"
+                    width="600"
+                    height="600"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-menu-foods">
+              <ul class="menu-foods-list">
+                <li class="menu-foods-item calc">
+                  <span>Ккал</span>
+                </li>
+                <li class="menu-foods-item">
+                  <svg width="50" height="50">
+                    <use href="./sprite.svg#icon-fish"></use>
+                  </svg>
+                </li>
+                <li class="menu-foods-item">
+                  <svg width="50" height="50">
+                    <use href="./sprite.svg#icon-carrot"></use>
+                  </svg>
+                </li>
+                <li class="menu-foods-item">
+                  <svg width="50" height="50">
+                    <use href="./sprite.svg#icon-bottle"></use>
+                  </svg>
+                </li>
+                <li class="menu-foods-item">
+                  <svg width="50" height="50">
+                    <use href="./sprite.svg#icon-meat"></use>
+                  </svg>
+                </li>
+                <li class="menu-foods-item table">
+                  <div class="wrap-table">
+                    <span> 5 </span>
+                    <svg width="50" height="24">
+                      <use href="./sprite.svg#icon-table"></use>
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- pagination -->
+            <div class="hero-pagination">
+              <button class="arrow-left">
+                <svg class="icon-arrow-left" width="32" height="32">
+                  <use href="./sprite.svg#icon-arrow-left"></use>
+                </svg>
+              </button>
+              <div class="ellipse"></div>
+              <div class="ellipse"></div>
+              <div class="ellipse"></div>
+              <div class="ellipse"></div>
+              <button class="arrow-right">
+                <svg class="icon-arrow-right" width="28" height="28">
+                  <use href="./sprite.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features section">
+          <div class="features-container container">
+            <h2 class="visually-hidden">Задачи</h2>
+            <ul class="features-list">
+              <li class="features-item">
+                <svg width="50" height="64">
+                  <use href="./sprite.svg#icon-eco"></use>
+                </svg>
+                <p>Бережём природу. Эко-тара и проборы.</p>
+              </li>
+              <li class="features-item">
+                <svg width="66" height="66">
+                  <use href="./sprite.svg#icon-dish"></use>
+                </svg>
+                <p>28 дней без повторения, более 300 блюд!</p>
+              </li>
+              <li class="features-item">
+                <svg width="66" height="66">
+                  <use href="./sprite.svg#icon-time"></use>
+                </svg>
+                <p>Бесплатно заменяем блюда и ингредиенты.</p>
+              </li>
+              <li class="features-item">
+                <svg width="62" height="62">
+                  <use href="./sprite.svg#icon-night"></use>
+                </svg>
+                <p>Готовим ночью, упаковываем и отправляем Вам!</p>
+              </li>
+              <li class="features-item">
+                <svg width="100" height="70">
+                  <use href="./sprite.svg#icon-car"></use>
+                </svg>
+                <p>Ежедневная удобная и бесплатная доставка с 6:00 до 10:00</p>
+              </li>
+              <li class="features-item">
+                <svg width="68" height="68">
+                  <use href="./sprite.svg#icon-clock"></use>
+                </svg>
+                <p>
+                  Сохраняем Вашу энергию и до 14 часов в неделю освобождая от
+                  готовки!
+                </p>
+              </li>
+            </ul>
+            <div class="features-ellipse">
+              <img
+                src="./images/features/ellipse-featuers-desktop.png"
+                alt=""
+                width="344"
+                height="344"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section class="programs section" id="programs">
+          <div class="programs-container container">
+            <h2 class="visually-hidden">Программы питания</h2>
+            <div class="programs-flex">
+              <h3 class="programs-subtitle">Программы питания</h3>
+              <h3 class="programs-subtitle">Специальные программы</h3>
+            </div>
+
+            <ul class="programs-calories-list">
+              <li class="programs-calories-item">
+                <p class="name">EXPRESS FIT</p>
+                <span class="calories">800 ккал</span>
+              </li>
+              <li class="programs-calories-item">
+                <p class="name">slim</p>
+                <span class="calories">1000 ккал</span>
+              </li>
+              <li class="programs-calories-item">
+                <p class="name">fitness</p>
+                <span class="calories">1300 ккал</span>
+              </li>
+              <li class="programs-calories-item">
+                <p class="name">balance</p>
+                <span class="calories">1600 ккал</span>
+              </li>
+              <li class="programs-calories-item">
+                <p class="name">balance +</p>
+                <span class="calories">1800 ккал</span>
+              </li>
+              <li class="programs-calories-item">
+                <p class="name">strong</p>
+                <span class="calories">2000 ккал</span>
+              </li>
+              <li class="programs-calories-item">
+                <p class="name">maxi fit</p>
+                <span class="calories">2400 ккал</span>
+              </li>
+            </ul>
+
+            <div class="programs-content">
+              <div class="programs-details">
+                <div class="wrapper">
+                  <h3 class="programs-details-title">FITNESS</h3>
+                  <span>1300 ккал</span>
+                  <p class="programs-details-text">
+                    Программа здорового питания для снижения веса и поддержания
+                    энергии.
+                  </p>
+                </div>
+
+                <table class="programs-table">
+                  <!-- <thead>
+                    <tr>
+                      <th>День</th>
+                      <th>Меню</th>
+                      <th>Цена</th>
+                    </tr>
+                  </thead> -->
+                  <tbody>
+                    <tr>
+                      <td>Тестовый день</td>
+                      <td class="clolumn-2 line-through">510 грн</td>
+                      <td>357 грн</td>
+                    </tr>
+                    <tr>
+                      <td>1 день</td>
+                      <td class="clolumn-2 line-through"></td>
+                      <td>510 грн</td>
+                    </tr>
+                    <tr>
+                      <td>от 7 дней</td>
+                      <td class="clolumn-2 line-through">510 грн</td>
+                      <td>490 грн</td>
+                    </tr>
+                    <tr>
+                      <td>от 14 дней</td>
+                      <td class="clolumn-2 line-through">510 грн</td>
+                      <td>470 грн</td>
+                    </tr>
+                    <tr>
+                      <td>от 30 дней</td>
+                      <td class="clolumn-2 line-through">510 грн</td>
+                      <td>445 грн</td>
+                    </tr>
+                    <tr>
+                      <td>Завтрак и ужин</td>
+                      <td class="clolumn-2">-15%</td>
+                      <td>433 грн</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <button type="button" class="btn-order btn">Заказать</button>
+              </div>
+
+              <div class="programs-schedule">
+                <ul class="days-list">
+                  <li class="days-item">ПН</li>
+                  <li class="days-item">ВТ</li>
+                  <li class="days-item">СР</li>
+                  <li class="days-item">ЧТ</li>
+                  <li class="days-item">ПТ</li>
+                  <li class="days-item">СБ</li>
+                  <li class="days-item">ВС</li>
+                </ul>
+
+                <table class="days-details-table">
+                  <tbody>
+                    <tr>
+                      <td class="column-1">
+                        Завтрак <br />
+                        <span>7:00 - 9:00</span>
+                      </td>
+                      <td>
+                        - Фриттата с сыром и кабачками <br />
+                        &nbsp;
+                      </td>
+                      <td>170гр</td>
+                    </tr>
+                    <tr>
+                      <td class="column-1">
+                        2-й завтрак <br /><span>10:00 - 12:00</span>
+                      </td>
+                      <td>
+                        - Фермерский йогурт <br />
+                        - Полезное печенье из сухофруктов и орехов
+                      </td>
+                      <td>200гр <br />2 шт</td>
+                    </tr>
+                    <tr>
+                      <td class="column-1">
+                        Обед <br /><span>13:00 - 15:00</span>
+                      </td>
+                      <td>
+                        - Люля-кебаб из индейки <br />- Летний салат с маслинами
+                        и сыром
+                      </td>
+                      <td>100гр <br />100гр</td>
+                    </tr>
+                    <tr>
+                      <td class="column-1">
+                        Полдник <br /><span>16:00 - 17:30</span>
+                      </td>
+                      <td>
+                        - Творожное суфле с какао и вишей<br />
+                        &nbsp;
+                      </td>
+                      <td>
+                        100гр<br />
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="column-1">
+                        Ужин <br /><span>19:00 - 20:00</span>
+                      </td>
+                      <td>- Рыбный терен <br />- Овощи гриль</td>
+                      <td>
+                        100гр <br />
+                        150гр
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- <ul class="days-details-list">
+                  <li class="days-details-item">
+                    <div class="wrapper">
+                      <p>Завтрак</p>
+                      <p>7:00 - 9:00</p>
+                    </div>
+                    <p>- Фриттата с сыром и кабачками</p>
+                    <p>170гр</p>
+                  </li>
+                  <li class="days-details-item">
+                    <div class="wrapper">
+                      <p>2-й завтрак</p>
+                      <p>10:00 - 12:00</p>
+                    </div>
+                    <div>
+                      <p>- Фермерский йогурт орехов</p>
+                      <p>200гр</p>
+                    </div>
+                    <div>
+                      <p>- Полезное печенье из сухофруктов и</p>
+                      <p>2 шт</p>
+                    </div>
+                  </li>
+                  <li class="days-details-item">
+                    <div class="wrapper">
+                      <p>Обед</p>
+                      <p>13:00 - 15:00</p>
+                    </div>
+                    <div>
+                      <p>- Люля-кебаб из индейки</p>
+                      <p>100гр</p>
+                    </div>
+                    <div>
+                      <p>- Летний салат с маслинами и сыром</p>
+                      <p>100гр</p>
+                    </div>
+                  </li>
+                  <li class="days-details-item">
+                    <div class="wrapper">
+                      <p>Полдник</p>
+                      <p>16:00 - 17:30</p>
+                    </div>
+                    <p>- Творожное суфле с какао и вишей</p>
+                    <p>100гр</p>
+                  </li>
+                  <li class="days-details-item">
+                    <div class="wrapper">
+                      <p>Ужин</p>
+                      <p>19:00 - 20:00</p>
+                    </div>
+                    <div>
+                      <p>- Рыбный терен</p>
+                      <p>100гр</p>
+                    </div>
+                    <div>
+                      <p>- Овощи гриль</p>
+                      <p>150гр</p>
+                    </div>
+                  </li>
+                </ul> -->
+              </div>
+            </div>
+            <div class="programs-ellipse">
+              <img
+                src="./images/progams/ellipse-progams-desktop.png"
+                alt=""
+                width="500"
+                height="500"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery section">
+          <div class="gallery-container container">
+            <h2 class="section-title">Фото блюд</h2>
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <img
+                  src="./images/gallery/img-01-desktop.jpg"
+                  alt=""
+                  width="380"
+                  height="570"
+                />
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="./images/gallery/img-02-desktop.jpg"
+                  alt=""
+                  width="380"
+                  height="570"
+                />
+              </li>
+
+              <li class="gallery-item">
+                <img
+                  src="./images/gallery/img-03-desktop.jpg"
+                  alt=""
+                  width="380"
+                  height="570"
+                />
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="./images/gallery/img-04-desktop.jpg"
+                  alt=""
+                  width="380"
+                  height="570"
+                />
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="./images/gallery/img-05-desktop.jpg"
+                  alt=""
+                  width="380"
+                  height="570"
+                />
+              </li>
+              <li class="gallery-item">
+                <img
+                  src="./images/gallery/img-06-desktop.jpg"
+                  alt=""
+                  width="380"
+                  height="570"
+                />
+              </li>
+            </ul>
+            <div class="gallery-ellipse-top">
+              <img
+                src="./images/gallery/ellips-gallery-top-desktop.png"
+                alt=""
+                width="300"
+                height="300"
+              />
+            </div>
+            <div class="gallery-ellipse-bottom">
+              <img
+                src="./images/gallery/ellipse-gallery-bottom-desktop.png"
+                alt=""
+                width="185"
+                height="185"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- Form Section -->
+        <section class="form section">
+          <div class="form-container container">
+            <h2 class="visually-hidden">
+              Оформить заказ. Часто задваемые вопросы
+            </h2>
+            <div class="form-wrapper">
+              <h3 class="form-title">Оформить заказ</h3>
+              <p class="form-text">
+                Обсудите все детали заказа по телефону или сами укажите все
+                подробности онлайн
+              </p>
+              <form class="form">
+                <label class="form-field">
+                  <span class="form-label">Имя</span>
+                  <div class="form-input-wrapper">
+                    <input
+                      class="form-input"
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Имя"
+                      required
+                      maxlength="10"
+                      minlength="3"
+                    />
+                    <div class="status-icon"></div>
+                  </div>
+                </label>
+
+                <label class="form-field">
+                  <span class="form-label">Номер телефона</span>
+                  <div class="form-input-wrapper">
+                    <input
+                      class="form-input"
+                      type="tel"
+                      name="tel"
+                      placeholder="Номер телефона"
+                      required
+                    />
+                    <div class="status-icon"></div>
+                  </div>
+                </label>
+
+                <label class="form-field-checkbox">
+                  <!--  -->
+                  <input
+                    class="form-checkbox visually-hidden"
+                    type="checkbox"
+                    name="discount"
+                  />
+
+                  <div class="checkbox-icon">
+                    <div class="checkbox-icon-inner"></div>
+                  </div>
+                  Тест-день! Получить скидку -30%?
+                </label>
+
+                <label class="form-field-checkbox">
+                  <input
+                    class="form-checkbox visually-hidden"
+                    type="checkbox"
+                    name="policy"
+                  />
+                  <div class="checkbox-icon">
+                    <div class="checkbox-icon-inner"></div>
+                  </div>
+                  Согласен &nbsp;
+                  <a
+                    class="form-link"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >с условиями сотрудничества</a
+                  >
+                </label>
+                <div class="btn-wrapper">
+                  <button type="submit" class="btn-form btn">
+                    Заказ по телефону
+                  </button>
+                  <span>или</span>
+                  <button type="submit" class="btn-form btn">
+                    Онлайн заказ
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="qa-wrapper">
+              <h3 class="qa-title">Часто задаваемые вопросы</h3>
+              <ul class="qa-list">
+                <li class="qa-item">
+                  <p>Как осуществляется доставка правильного питания?</p>
+                  <svg class="icon-arrow-right" width="24" height="24">
+                    <use href="./sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </li>
+                <li class="qa-item">
+                  <p>Можно ли менять время доставки\место?</p>
+                  <svg class="icon-arrow-right" width="24" height="24">
+                    <use href="./sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </li>
+                <li class="qa-item">
+                  <p>Как и в чем приезжает еда?</p>
+                  <svg class="icon-arrow-right" width="24" height="24">
+                    <use href="./sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </li>
+                <li class="qa-item">
+                  <p>Когда Вы готовите?</p>
+                  <svg class="icon-arrow-right" width="24" height="24">
+                    <use href="./sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </li>
+                <li class="qa-item">
+                  <p>Какие продукты Вы используете?</p>
+                  <svg class="icon-arrow-right" width="24" height="24">
+                    <use href="./sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </li>
+                <li class="qa-item">
+                  <p>Я буду есть одно и то же?</p>
+                  <svg class="icon-arrow-right" width="24" height="24">
+                    <use href="./sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </li>
+                <li class="qa-item">
+                  <p>
+                    У меня аллергия и непереносимость определенных продуктов
+                  </p>
+                  <svg class="icon-arrow-right" width="24" height="24">
+                    <use href="./sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </li>
+                <li class="qa-item">
+                  <p>В какой очередности все есть?</p>
+                  <svg class="icon-arrow-right" width="24" height="24">
+                    <use href="./sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </li>
+                <li class="qa-item">
+                  <p>Можно ли замораживать программу?</p>
+                  <svg class="icon-arrow-right" width="24" height="24">
+                    <use href="./sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+            <div class="form-ellipse-left">
+              <img
+                src="./images/form/ellipse-form-left-desktop.png"
+                alt=""
+                width="300"
+                height="300"
+              />
+          </div>
+          <div class="form-ellipse-right">
+            <img
+              src="./images/form/ellipse-form-right-desktop.png"
+              alt=""
+              width="500"
+              height="500"
+            />
+        </div>
+        </section>
+      </main>
+
+      <!-- Footer Section -->
+      <footer class="footer section">
+        <div class="footer-section-wrapper">
+          <div class="footer-container container">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a href="#programs">Програмы питания</a>
+              </li>
+              <li class="footer-nav-item">О нас</li>
+              <li class="footer-nav-item"><a href="#">Бизнес-ланчи</a></li>
+              <li class="footer-nav-item"><a href="#">Gastro Shop</a></li>
+              <li class="footer-nav-item"><a href="#">Блог</a></li>
+            </ul>
+            <a class="footer-logo" href="/"
+              ><img
+                src="./images//footer/footer-logo-desktop.png"
+                alt="Logo"
+                width="370"
+                height="155"
+              />
+              <span class="footer-logo-text">сервис здорового питания</span>
+            </a>
+            <div class="footer-policy-social">
+              <a href="#">Условия сотрудничества</a>
+              <a href="#">FAQ</a>
+              <ul class="footer-social-links-list">
+                <li class="footer-social-links-item">
+                  <a
+                    class="social-link"
+                    href="https://instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Follow Us On Instagram"
+                  >
+                    <svg class="icon-instagram" width="30" height="30">
+                      <use href="./sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer-social-links-item">
+                  <a
+                    class="social-link"
+                    href="https://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Follow Us On Facebook"
+                  >
+                    <svg class="icon-facebook" width="30" height="30">
+                      <use href="./sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer-social-links-item">
+                  <a
+                    class="social-link"
+                    href="https://www.viber.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Follow Us On Viber"
+                  >
+                    <svg class="icon-viber" width="30" height="30">
+                      <use href="./sprite.svg#icon-viber"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer-social-links-item">
+                  <a
+                    class="social-link"
+                    href="https://web.telegram.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Follow Us On Telegram"
+                  >
+                    <svg class="icon-telegram" width="30" height="30">
+                      <use href="./sprite.svg#icon-telegram"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+
+              <div class="footer-phone">
+                <a href="tel:+380689494919">+38 (068) 949 - 49 - 19</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
