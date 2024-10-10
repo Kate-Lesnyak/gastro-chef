@@ -706,7 +706,6 @@ tr .clolumn-2.line-through {
   position: relative;
   display: flex;
   gap: 82px;
-  background-color: var(--white-color);
 }
 
 .form-ellipse-left {
@@ -901,6 +900,8 @@ tr .clolumn-2.line-through {
   align-items: center;
   padding: 10px 20px;
   border-radius: 30px;
+  background-color: var(--white-color);
+
   box-shadow: var(--box-shadow-2);
   fill: var(--black-color);
   cursor: pointer;
