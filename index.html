@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -14,6 +14,10 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link rel="icon" href="./images/logo_160x69.ico">
     <title>Gastro Chef</title>
   </head>
@@ -107,21 +111,28 @@
                   <svg width="50" height="50">
                     <use href="./sprite.svg#icon-fish"></use>
                   </svg>
+                  <span class="dish">Fish</span>
                 </li>
                 <li class="menu-foods-item">
                   <svg width="50" height="50">
                     <use href="./sprite.svg#icon-carrot"></use>
                   </svg>
+                  <span class="dish">Carrot</span>
+                  
                 </li>
                 <li class="menu-foods-item">
                   <svg width="50" height="50">
                     <use href="./sprite.svg#icon-bottle"></use>
                   </svg>
+                  <span class="dish">Bottle</span>
+
                 </li>
                 <li class="menu-foods-item">
                   <svg width="50" height="50">
                     <use href="./sprite.svg#icon-meat"></use>
                   </svg>
+                  <span class="dish">Meat</span>
+
                 </li>
                 <li class="menu-foods-item table">
                   <div class="wrap-table">
@@ -130,6 +141,7 @@
                       <use href="./sprite.svg#icon-table"></use>
                     </svg>
                   </div>
+                  <span class="dish">Table</span>
                 </li>
               </ul>
             </div>
@@ -444,7 +456,65 @@
         <section class="gallery section">
           <div class="gallery-container container">
             <h2 class="section-title">Фото блюд</h2>
-            <ul class="gallery-list">
+
+            <div class="swiper mySwiper">
+                <ul class="gallery-list swiper-wrapper">
+                  <li class="gallery-item swiper-slide">
+                    <img
+                      src="./images/gallery/img-01-desktop.jpg"
+                      alt="Dish"
+                      width="380"
+                      height="570"
+                    />
+                  </li>
+                  <li class="gallery-item swiper-slide">
+                    <img
+                      src="./images/gallery/img-02-desktop.jpg"
+                      alt="Dish"
+                      width="380"
+                      height="570"
+                    />
+                  </li>
+    
+                  <li class="gallery-item swiper-slide" >
+                    <img
+                      src="./images/gallery/img-03-desktop.jpg"
+                      alt="Dish"
+                      width="380"
+                      height="570"
+                    />
+                  </li>
+                  <li class="gallery-item swiper-slide">
+                    <img
+                      src="./images/gallery/img-04-desktop.jpg"
+                      alt="Dish"
+                      width="380"
+                      height="570"
+                    />
+                  </li>
+                  <li class="gallery-item swiper-slide">
+                    <img
+                      src="./images/gallery/img-05-desktop.jpg"
+                      alt="Dish"
+                      width="380"
+                      height="570"
+                    />
+                  </li>
+                  <li class="gallery-item swiper-slide">
+                    <img
+                      src="./images/gallery/img-06-desktop.jpg"
+                      alt="Dish"
+                      width="380"
+                      height="570"
+                    />
+                  </li>
+  
+                </ul>
+              <div class="swiper-pagination"></div>
+            </div>
+
+
+            <!-- <ul class="gallery-list">
               <li class="gallery-item">
                 <img
                   src="./images/gallery/img-01-desktop.jpg"
@@ -494,7 +564,7 @@
                   height="570"
                 />
               </li>
-            </ul>
+            </ul> -->
             <div class="gallery-ellipse-top">
               <img
                 src="./images/gallery/ellipse-gallery-top-desktop.png"
@@ -604,60 +674,87 @@
               <h3 class="qa-title">Часто задаваемые вопросы</h3>
               <ul class="qa-list">
                 <li class="qa-item">
-                  <p>Как осуществляется доставка правильного питания?</p>
-                  <svg class="icon-arrow-right" width="24" height="24">
-                    <use href="./sprite.svg#icon-arrow-right"></use>
-                  </svg>
+                  <div class="qa-item-wrapper">
+                    <p>Как осуществляется доставка правильного питания?</p>
+                    <svg class="icon-arrow-right" width="24" height="24">
+                      <use href="./sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </div>
+                  <p class="qa-item-answer">Доставка рационов здорового питания осуществляется ежедневно с 6.00 до 10.00 в выбранный Вами часовой диапазон . Время ожидания курьера по адресу составляет 10 мин. Далее курьер едет на следующий адрес. Если Вас не было по адресу или Вы не вышли на связь, пакет повторно может быть доставлен к Вам на такси за Ваш счет или будет списан.</p>
                 </li>
                 <li class="qa-item">
-                  <p>Можно ли менять время доставки\место?</p>
-                  <svg class="icon-arrow-right" width="24" height="24">
-                    <use href="./sprite.svg#icon-arrow-right"></use>
-                  </svg>
+                  <div class="qa-item-wrapper">
+
+                    <p>Можно ли менять время доставки\место?</p>
+                    <svg class="icon-arrow-right" width="24" height="24">
+                      <use href="./sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </div>
                 </li>
                 <li class="qa-item">
-                  <p>Как и в чем приезжает еда?</p>
-                  <svg class="icon-arrow-right" width="24" height="24">
-                    <use href="./sprite.svg#icon-arrow-right"></use>
-                  </svg>
+                  <div class="qa-item-wrapper">
+
+                    <p>Как и в чем приезжает еда?</p>
+                    <svg class="icon-arrow-right" width="24" height="24">
+                      <use href="./sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </div>
                 </li>
                 <li class="qa-item">
-                  <p>Когда Вы готовите?</p>
-                  <svg class="icon-arrow-right" width="24" height="24">
-                    <use href="./sprite.svg#icon-arrow-right"></use>
-                  </svg>
+                  <div class="qa-item-wrapper">
+
+                    <p>Когда Вы готовите?</p>
+                    <svg class="icon-arrow-right" width="24" height="24">
+                      <use href="./sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </div>
                 </li>
                 <li class="qa-item">
-                  <p>Какие продукты Вы используете?</p>
-                  <svg class="icon-arrow-right" width="24" height="24">
-                    <use href="./sprite.svg#icon-arrow-right"></use>
-                  </svg>
+                  <div class="qa-item-wrapper">
+
+                    <p>Какие продукты Вы используете?</p>
+                    <svg class="icon-arrow-right" width="24" height="24">
+                      <use href="./sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </div>
                 </li>
                 <li class="qa-item">
-                  <p>Я буду есть одно и то же?</p>
-                  <svg class="icon-arrow-right" width="24" height="24">
-                    <use href="./sprite.svg#icon-arrow-right"></use>
-                  </svg>
+                  <div class="qa-item-wrapper">
+
+                    <p>Я буду есть одно и то же?</p>
+                    <svg class="icon-arrow-right" width="24" height="24">
+                      <use href="./sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </div>
                 </li>
                 <li class="qa-item">
-                  <p>
-                    У меня аллергия и непереносимость определенных продуктов
-                  </p>
-                  <svg class="icon-arrow-right" width="24" height="24">
-                    <use href="./sprite.svg#icon-arrow-right"></use>
-                  </svg>
+                  <div class="qa-item-wrapper">
+
+                    <p>
+                      У меня аллергия и непереносимость определенных продуктов
+                    </p>
+                    <svg class="icon-arrow-right" width="24" height="24">
+                      <use href="./sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </div>
                 </li>
                 <li class="qa-item">
-                  <p>В какой очередности все есть?</p>
-                  <svg class="icon-arrow-right" width="24" height="24">
-                    <use href="./sprite.svg#icon-arrow-right"></use>
-                  </svg>
+                  <div class="qa-item-wrapper">
+
+                    <p>В какой очередности все есть?</p>
+                    <svg class="icon-arrow-right" width="24" height="24">
+                      <use href="./sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </div>
                 </li>
                 <li class="qa-item">
-                  <p>Можно ли замораживать программу?</p>
-                  <svg class="icon-arrow-right" width="24" height="24">
-                    <use href="./sprite.svg#icon-arrow-right"></use>
-                  </svg>
+                  <div class="qa-item-wrapper">
+
+                    <p>Можно ли замораживать программу?</p>
+                    <svg class="icon-arrow-right" width="24" height="24">
+                      <use href="./sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -768,7 +865,7 @@
         </div>
       </footer>
 
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
