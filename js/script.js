@@ -12,7 +12,6 @@ const headerScrollHandler = () => {
 window.addEventListener('scroll', headerScrollHandler);
 
 // Swiper
-
 const swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 20,
