@@ -10,15 +10,3 @@ const headerScrollHandler = () => {
 }
 
 window.addEventListener('scroll', headerScrollHandler);
-
-// Swiper
-const swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 20,
-    grabCursor: true,
-    loop: true,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-});
