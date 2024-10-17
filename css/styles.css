@@ -246,6 +246,7 @@ body.mobile-menu {
 .logo-wrapper {
   position: absolute;
   cursor: pointer;
+  pointer-events: none;
 }
 
 .logo {
@@ -1165,7 +1166,6 @@ body.mobile-menu {
 
   .qa-item-answer {
     display: none;
-
     padding-top: 10px;
     color: var(--white-color);
     font-size: 10px;
@@ -1260,6 +1260,10 @@ body.mobile-menu {
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
+  }
+
+  .hero-menu-foods {
+    display: block;
   }
 
   .hero.section {
@@ -1358,7 +1362,7 @@ body.mobile-menu {
   }
 
   .menu-foods-item:active {
-    width: 100px;
+    width: 80px;
     border-radius: 50px;
     fill: var(--accent-color);
   }
@@ -1663,7 +1667,6 @@ body.mobile-menu {
   }
 
   .qa-item-answer {
-    width: 628px;
     padding-top: 15px;
     font-size: 12px;
   }
@@ -2129,6 +2132,10 @@ body.mobile-menu {
 
   .qa-wrapper {
     flex-grow: 1;
+  }
+
+  .qa-item-answer {
+    width: 628px;
   }
 
   /* Footer */
