@@ -1,7 +1,7 @@
 :root {
-  --font-family-Montserrat: "Montserrat", sans-serif;
-  --font-family-Comfortaa: "Comfortaa", sans-serif;
-  --font-family-Raleway: "Raleway", sans-serif;
+  --font-family-Montserrat: 'Montserrat', sans-serif;
+  --font-family-Comfortaa: 'Comfortaa', sans-serif;
+  --font-family-Raleway: 'Raleway', sans-serif;
 
   --bgc-light-grey: #dee6ee;
   --background-backdrop: rgba(2, 2, 2, 0.85);
@@ -233,7 +233,7 @@ body.mobile-menu {
   }
 
   .header-container {
-    gap: 20px;
+    gap: 18px;
   }
 }
 
@@ -932,12 +932,12 @@ body.mobile-menu {
     border-radius: 30px;
   }
 
-  .gallery-list .swiper-wrapper {
+  /* .gallery-list .swiper-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-  }
+  } */
 
   .gallery-item.swiper-slide {
     box-shadow: var(--box-shadow-5);
