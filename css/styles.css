@@ -932,13 +932,6 @@ body.mobile-menu {
     border-radius: 30px;
   }
 
-  /* .gallery-list .swiper-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  } */
-
   .gallery-item.swiper-slide {
     box-shadow: var(--box-shadow-5);
     border-radius: 30px;
