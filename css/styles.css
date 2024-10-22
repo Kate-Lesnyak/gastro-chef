@@ -2391,3 +2391,24 @@ body.mobile-menu {
     height: 36px;
   }
 }
+
+/* anchor scroll */
+.anchor {
+  height: 110px;
+  margin-top: -110px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .anchor {
+    height: 150px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .anchor {
+    height: 210px;
+    margin-top: -210px;
+  }
+}
